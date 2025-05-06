@@ -18,7 +18,7 @@ Supervised and semi-supervised learning for condition assessment
 Synthetic data generation for simulation of health trajectories
 
 
-## ⚠️ Note: Due to privacy policies, the datasets are not included. Example code is provided with anonymized data structure. 
+### ⚠️ Note: Due to privacy policies, the datasets are not included. Example code is provided with anonymized data structure. 
 
 
 ## Project Structure
