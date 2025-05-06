@@ -41,11 +41,11 @@ Clone the repository:
 git clone https://github.com/yourusername/project-repo.git
 cd project-repo
 
-## Install required Python libraries:
+### Install required Python libraries:
 
 pip install -r requirements.txt
 
-## Open the notebooks and run them step by step in Jupyter:
+### Open the notebooks and run them step by step in Jupyter:
 jupyter notebook
 
 ## Built With
