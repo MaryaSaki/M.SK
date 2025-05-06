@@ -38,7 +38,7 @@ In collaboration with an industrial partner, a relational database of real-world
 ## How to Run
 
 Clone the repository:
-git clone https://github.com/yourusername/project-repo.git
+git clone https://github.com/MaryaSaki/project-repo.git
 cd project-repo
 
 ### Install required Python libraries:
