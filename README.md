@@ -18,10 +18,10 @@ Supervised and semi-supervised learning for condition assessment
 Synthetic data generation for simulation of health trajectories
 
 
-# *⚠️ Note: Due to privacy policies, the datasets are not included. Example code is provided with anonymized data structure. *
+## ⚠️ Note: Due to privacy policies, the datasets are not included. Example code is provided with anonymized data structure. 
 
 
-📂 Project Structure
+## Project Structure
 
 ├── supervised-learning-pd.ipynb
 
@@ -29,33 +29,33 @@ Synthetic data generation for simulation of health trajectories
 
 └── data-modelling-pd.ipynb
 
-* supervised-learning-pd.ipynb: * Classification models to predict equipment condition from diagnostic data.
+* supervised-learning-pd.ipynb: Classification models to predict equipment condition from diagnostic data.
 
-semi-supervised-learning-pd.ipynb: Semi-supervised techniques to leverage partially labeled datasets for better predictions.
+* semi-supervised-learning-pd.ipynb: Semi-supervised techniques to leverage partially labeled datasets for better predictions.
 
-data-modelling-pd.ipynb: Clustering, outlier detection, and synthetic data generation for data exploration and simulation.
+* data-modelling-pd.ipynb: Clustering, outlier detection, and synthetic data generation for data exploration and simulation.
 
-How to Run
+## How to Run
 
 Clone the repository:
 git clone https://github.com/yourusername/project-repo.git
 cd project-repo
 
-Install required Python libraries:
+## Install required Python libraries:
 
 pip install -r requirements.txt
 
-Open the notebooks and run them step by step in Jupyter:
+## Open the notebooks and run them step by step in Jupyter:
 jupyter notebook
 
-🛠️ Built With
+## Built With
 Python (pandas, scikit-learn, matplotlib, seaborn)
 Jupyter Notebooks
 
-Contributing
+## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-🙋‍♂️ Contact
+## Contact
 Created by Maryam Saki — feel free to connect!
 
 
