@@ -29,7 +29,7 @@ In collaboration with an industrial partner, a relational database of real-world
 
 └── data-modelling-pd.ipynb
 
-### * supervised-learning-pd.ipynb: ### Classification models to predict equipment condition from diagnostic data.
+* supervised-learning-pd.ipynb: Classification models to predict equipment condition from diagnostic data.
 
 * semi-supervised-learning-pd.ipynb: Semi-supervised techniques to leverage partially labeled datasets for better predictions.
 
