@@ -9,13 +9,13 @@ In collaboration with an industrial partner, a relational database of real-world
 
 ## Key applications include:
 
-Clustering for unbiased data exploration
+* Clustering for unbiased data exploration
 
-Outlier detection and missing value imputation
+* Outlier detection and missing value imputation
 
-Supervised and semi-supervised learning for condition assessment
+* Supervised and semi-supervised learning for condition assessment
 
-Synthetic data generation for simulation of health trajectories
+* Synthetic data generation for simulation of health trajectories
 
 
 ### ⚠️ Note: Due to privacy policies, the datasets are not included. Example code is provided with anonymized data structure. 
@@ -29,7 +29,7 @@ Synthetic data generation for simulation of health trajectories
 
 └── data-modelling-pd.ipynb
 
-* supervised-learning-pd.ipynb: Classification models to predict equipment condition from diagnostic data.
+###* supervised-learning-pd.ipynb: ### Classification models to predict equipment condition from diagnostic data.
 
 * semi-supervised-learning-pd.ipynb: Semi-supervised techniques to leverage partially labeled datasets for better predictions.
 
