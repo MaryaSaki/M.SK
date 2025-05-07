@@ -2,10 +2,9 @@
 
 This project applies machine learning techniques to optimize the condition assessment of electrical power equipment, with a special focus on energy cables. By leveraging real-world diagnostic measurements, the project demonstrates how data-driven models can improve predictive maintenance, reduce unexpected failures, and enhance grid reliability.
 
-###⚠️ All data identifiers have been anonymized due to privacy policies. The datasets themselves are not included.
+### ⚠️ All data identifiers have been anonymized due to privacy policies. The datasets themselves are not included.
 
 ## Project Description
-📘 Project Description
 Modern power grid operators rely on a variety of diagnostic methods—including offline measurements (such as Tan Delta) and online monitoring (such as Partial Discharge)—to assess equipment condition. These techniques produce heterogeneous datasets in different formats, making analysis and integration challenging.
 
 For this project, I received pre-collected diagnostic datasets in CSV format from an industrial partner. The datasets were already exported from a relational database where diverse diagnostic measurements had been integrated and modeled.
