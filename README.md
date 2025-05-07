@@ -65,8 +65,13 @@ My role focused on applying machine learning techniques to analyze the datasets 
 ## How to Run
 Clone the repository:
   
-* git clone https://github.com/MaryaSaki/project-repo.git
-cd project-repo
+## How to Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/MaryaSaki/M.SK.git
+cd M.SK
 
 Install dependencies:
   
