@@ -68,9 +68,7 @@ Clone the repository:
 ## How to Run
 
 Clone the repository:
-
-```bash
-git clone https://github.com/MaryaSaki/M.SK.git
+* git clone https://github.com/MaryaSaki/M.SK.git
 cd M.SK
 
 Install dependencies:
