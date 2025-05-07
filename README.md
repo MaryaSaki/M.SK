@@ -58,31 +58,31 @@ My role focused on applying machine learning techniques to analyze these dataset
 - **semi-supervised-learning-pd.ipynb:** Enhancing performance with limited labeled data
 
 ## How to Run
-* Clone the repository:
+Clone the repository:
   
-git clone https://github.com/MaryaSaki/project-repo.git
+* git clone https://github.com/MaryaSaki/project-repo.git
 cd project-repo
 
-* Install dependencies:
+Install dependencies:
   
-pip install -r requirements.txt
+* pip install -r requirements.txt
 
-* Launch Jupyter Notebook:
+Launch Jupyter Notebook:
   
-jupyter notebook
+*jupyter notebook
 
 Run notebooks in order, starting with data modelling.
 
 ## Built With
-* Python
+Python
 
-pandas
+* pandas
 
-scikit-learn
+* scikit-learn
 
-seaborn / matplotlib
+* seaborn / matplotlib
 
-* Jupyter Notebook
+Jupyter Notebook
 
 ## Contributing
 Contributions are welcome! If you find a bug or have ideas to enhance the project, feel free to open an issue or submit a pull request.
