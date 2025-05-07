@@ -11,13 +11,13 @@ For this project, I received pre-collected diagnostic datasets in CSV format fro
 
 My role focused on applying machine learning techniques to analyze these datasets and support the condition assessment of energy cables. This involved:
 
-** Preparing and preprocessing the data for machine learning **
+ ### Preparing and preprocessing the data for machine learning 
 
-** Applying clustering to explore underlying structures
+ ### Applying clustering to explore underlying structures
 
-** Detecting outliers and handling missing values
+ ### Detecting outliers and handling missing values
 
-** Using supervised and semi-supervised learning to predict cable conditions
+ ### Using supervised and semi-supervised learning to predict cable conditions
 
 Generating synthetic data to simulate future health trajectories.
 ## Machine Learning Applications
