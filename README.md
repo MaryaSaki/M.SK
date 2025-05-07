@@ -10,16 +10,12 @@ Modern power grid operators rely on a variety of diagnostic methods—including 
 For this project, I received pre-collected diagnostic datasets in CSV format from an industrial partner. The datasets were already exported from a relational database where diverse diagnostic measurements had been integrated and modeled.
 
 My role focused on applying machine learning techniques to analyze these datasets and support the condition assessment of energy cables. This involved:
+- **Preparing and preprocessing the data for machine learning**
+- **Applying clustering to explore underlying structures**
+- **Detecting outliers and handling missing values**
+- **Using supervised and semi-supervised learning to predict cable conditions**
+- **Generating synthetic data to simulate future health trajectories**
 
- #### * Preparing and preprocessing the data for machine learning 
-
- #### * Applying clustering to explore underlying structures
-
- #### * Detecting outliers and handling missing values
-
- #### * Using supervised and semi-supervised learning to predict cable conditions
-
-Generating synthetic data to simulate future health trajectories.
 ## Machine Learning Applications
 
 | Technique                 | Purpose                                                             |
