@@ -35,10 +35,15 @@ Generating synthetic data to simulate future health trajectories.
 ## Project Structure
 .
 ├── data-modelling-td.ipynb
+
 ├── supervised-learning-td.ipynb
+
 ├── semi-supervised-learning-td.ipynb
+
 ├── data-modelling-pd.ipynb
+
 ├── supervised-learning-pd.ipynb
+
 └── semi-supervised-learning-pd.ipynb
 
 33Notebooks Breakdown
