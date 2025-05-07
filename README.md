@@ -1,61 +1,99 @@
 # Data-Driven Condition Assessment of Power Equipment
 
-This project applies machine learning techniques to optimize the condition assessment of electrical power equipment, with a focus on energy cables. It demonstrates how data-driven methods can support predictive maintenance and improve grid reliability by leveraging diagnostic and monitoring measurements.
+This project applies machine learning techniques to optimize the condition assessment of electrical power equipment, with a special focus on energy cables. By leveraging real-world diagnostic measurements, the project demonstrates how data-driven models can improve predictive maintenance, reduce unexpected failures, and enhance grid reliability.
+
+###⚠️ All data identifiers have been anonymized due to privacy policies. The datasets themselves are not included.
 
 ## Project Description
+📘 Project Description
+Modern power grid operators rely on a variety of diagnostic methods—including offline measurements (such as Tan Delta) and online monitoring (such as Partial Discharge)—to assess equipment condition. These techniques produce heterogeneous datasets in different formats, making analysis and integration challenging.
 
-Modern power grid operators rely on a variety of diagnostic methods to assess equipment condition — from offline measurements to online monitoring. These data sources often have diverse formats and lack harmonized models.
-In collaboration with an industrial partner, a relational database of real-world diagnostic data has been created. This project applies machine learning (ML) to analyze this data and support maintenance decision-making for energy cables.
+For this project, I received pre-collected diagnostic datasets in CSV format from an industrial partner. The datasets were already exported from a relational database where diverse diagnostic measurements had been integrated and modeled.
 
-## Key applications include:
+My role focused on applying machine learning techniques to analyze these datasets and support the condition assessment of energy cables. This involved:
 
-* Clustering for unbiased data exploration
+Preparing and preprocessing the data for machine learning
 
-* Outlier detection and missing value imputation
+Applying clustering to explore underlying structures
 
-* Supervised and semi-supervised learning for condition assessment
+Detecting outliers and handling missing values
 
-* Synthetic data generation for simulation of health trajectories
+Using supervised and semi-supervised learning to predict cable conditions
 
+Generating synthetic data to simulate future health trajectories.
 
-### ⚠️ Note: Due to privacy policies, the datasets are not included. Example code is provided with anonymized data structure. 
+🧠 Machine Learning Applications
+Technique	Purpose
+Clustering	Unbiased data grouping and visualization
+Outlier Detection	Identifying erroneous or abnormal measurements
+Missing Value Imputation	Handling incomplete diagnostic records
+Supervised Learning	Predicting equipment condition using labeled data
+Semi-Supervised Learning	Leveraging partially labeled datasets for improved generalization
+Synthetic Data Generation	Simulating future trajectories and exploring hypothetical scenarios
 
-
-## Project Structure
-
+🗂️ Project Structure
+text
+Copy
+Edit
+.
+├── data-modelling-td.ipynb
+├── supervised-learning-td.ipynb
+├── semi-supervised-learning-td.ipynb
+├── data-modelling-pd.ipynb
 ├── supervised-learning-pd.ipynb
+└── semi-supervised-learning-pd.ipynb
+📄 Notebooks Breakdown
+🔹 Tan Delta (TD)
+data-modelling-td.ipynb: Clustering, outlier detection, and synthetic data generation
 
-├── semi-supervised-learning-pd.ipynb
+supervised-learning-td.ipynb: Classification models for TD-based diagnostics
 
-└── data-modelling-pd.ipynb
+semi-supervised-learning-td.ipynb: Semi-supervised learning with partial labels
 
-* supervised-learning-pd.ipynb: Classification models to predict equipment condition from diagnostic data.
+🔸 Partial Discharge (PD)
+data-modelling-pd.ipynb: Clustering, outlier detection, and synthetic data generation
 
-* semi-supervised-learning-pd.ipynb: Semi-supervised techniques to leverage partially labeled datasets for better predictions.
+supervised-learning-pd.ipynb: Predictive models based on PD data
 
-* data-modelling-pd.ipynb: Clustering, outlier detection, and synthetic data generation for data exploration and simulation.
+semi-supervised-learning-pd.ipynb: Enhancing performance with limited labeled data
 
-## How to Run
-
+🛠️ How to Run
 Clone the repository:
+
+bash
+Copy
+Edit
 git clone https://github.com/MaryaSaki/project-repo.git
 cd project-repo
+Install dependencies:
 
-### Install required Python libraries:
-
+bash
+Copy
+Edit
 pip install -r requirements.txt
+Launch Jupyter Notebook:
 
-### Open the notebooks and run them step by step in Jupyter:
+bash
+Copy
+Edit
 jupyter notebook
+Run notebooks in order, starting with data modelling.
 
-## Built With
-Python (pandas, scikit-learn, matplotlib, seaborn)
-Jupyter Notebooks
+🧰 Built With
+Python
 
-## Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests.
+pandas
 
-## Contact
-Created by Maryam Saki — feel free to connect!
+scikit-learn
 
+seaborn / matplotlib
+
+Jupyter Notebook
+
+🤝 Contributing
+Contributions are welcome! If you find a bug or have ideas to enhance the project, feel free to open an issue or submit a pull request.
+
+📬 Contact
+Created by Maryam Saki
+Feel free to connect or reach out!
 
