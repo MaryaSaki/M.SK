@@ -69,7 +69,7 @@ Install dependencies:
 
 Launch Jupyter Notebook:
   
-*jupyter notebook
+* jupyter notebook
 
 Run notebooks in order, starting with data modelling.
 
