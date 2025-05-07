@@ -59,14 +59,18 @@ My role focused on applying machine learning techniques to analyze these dataset
 
 ## How to Run
 * Clone the repository:
+  
 git clone https://github.com/MaryaSaki/project-repo.git
 cd project-repo
 
 * Install dependencies:
+  
 pip install -r requirements.txt
 
 * Launch Jupyter Notebook:
+  
 jupyter notebook
+
 Run notebooks in order, starting with data modelling.
 
 ## Built With
