@@ -33,7 +33,7 @@ Generating synthetic data to simulate future health trajectories.
 
 
 ## Project Structure
-.
+
 ├── data-modelling-td.ipynb
 
 ├── supervised-learning-td.ipynb
