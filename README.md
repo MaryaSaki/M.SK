@@ -43,19 +43,19 @@ My role focused on applying machine learning techniques to analyze these dataset
 └── semi-supervised-learning-pd.ipynb
 
 ## Notebooks Breakdown
-* Tan Delta (TD)
-data-modelling-td.ipynb: Clustering, outlier detection, and synthetic data generation
+#### Tan Delta (TD)
+- **data-modelling-td.ipynb:** Clustering, outlier detection, and synthetic data generation
 
-supervised-learning-td.ipynb: Classification models for TD-based diagnostics
+- **supervised-learning-td.ipynb:** Classification models for TD-based diagnostics
 
-semi-supervised-learning-td.ipynb: Semi-supervised learning with partial labels
+- **semi-supervised-learning-td.ipynb:** Semi-supervised learning with partial labels
 
-* Partial Discharge (PD)
-data-modelling-pd.ipynb: Clustering, outlier detection, and synthetic data generation
+#### Partial Discharge (PD)
+- **data-modelling-pd.ipynb:** Clustering, outlier detection, and synthetic data generation
 
-supervised-learning-pd.ipynb: Predictive models based on PD data
+- **supervised-learning-pd.ipynb:** Predictive models based on PD data
 
-semi-supervised-learning-pd.ipynb: Enhancing performance with limited labeled data
+- **semi-supervised-learning-pd.ipynb:** Enhancing performance with limited labeled data
 
 ## How to Run
 * Clone the repository:
