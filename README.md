@@ -5,16 +5,23 @@ This project applies machine learning techniques to optimize the condition asses
 ### ⚠️ All data identifiers have been anonymized due to privacy policies. The datasets themselves are not included.
 
 ## Project Description
-Modern power grid operators rely on a variety of diagnostic methods—including offline measurements (such as Tan Delta) and online monitoring (such as Partial Discharge)—to assess equipment condition. These techniques produce heterogeneous datasets in different formats, making analysis and integration challenging.
+Modern power grid operators rely on a variety of diagnostic methods—including offline measurements (such as Tan Delta) and online monitoring (such as Partial Discharge)—to assess the condition of power equipment. These diagnostic processes generate large volumes of heterogeneous data in different formats, making integration and analysis challenging.
 
-For this project, I received pre-collected diagnostic datasets in CSV format from an industrial partner. The datasets were already exported from a relational database where diverse diagnostic measurements had been integrated and modeled.
+For this project, I received pre-collected diagnostic datasets in CSV format from an industrial partner. These datasets were previously exported from a relational database that modeled and unified various offline and online measurements.
 
-My role focused on applying machine learning techniques to analyze these datasets and support the condition assessment of energy cables. This involved:
-- **Preparing and preprocessing the data for machine learning**
-- **Applying clustering to explore underlying structures**
-- **Detecting outliers and handling missing values**
-- **Using supervised and semi-supervised learning to predict cable conditions**
-- **Generating synthetic data to simulate future health trajectories**
+My role focused on applying machine learning techniques to analyze the datasets and support the condition assessment of energy cables. This involved:
+
+- **Preparing and preprocessing the data for analysis**
+
+- **Applying clustering and other unsupervised learning methods to explore natural groupings, patterns, and correlations**
+
+- **Detecting outliers and identifying potentially erroneous measurements**
+
+- **Investigating the effect of missing values by simulating missingness in key numeric and correlated features (e.g., with 0.1, 0.2, 0.4 missingness levels) and analyzing the impact on model accuracy**
+
+- **Using supervised learning to predict equipment condition from fully labeled data**
+
+- **Applying semi-supervised learning to leverage partially labeled datasets for improved generalization**
 
 ## Machine Learning Applications
 | Technique                       | Purpose                                                                                         |
@@ -42,18 +49,18 @@ My role focused on applying machine learning techniques to analyze these dataset
 
 ## Notebooks Breakdown
 #### Tan Delta (TD)
-- **data-modelling-td.ipynb:** Clustering, outlier detection, and synthetic data generation
+- **data-modelling-td.ipynb:** Clustering, correlation analysis, outlier detection, and missing value experiments
 
 - **supervised-learning-td.ipynb:** Classification models for TD-based diagnostics
 
-- **semi-supervised-learning-td.ipynb:** Semi-supervised learning with partial labels
+- **semi-supervised-learning-td.ipynb:** Semi-supervised learning using partial labels
 
 #### Partial Discharge (PD)
-- **data-modelling-pd.ipynb:** Clustering, outlier detection, and synthetic data generation
+- **data-modelling-pd.ipynb:** Clustering, correlation analysis, outlier detection, and missing value experiments
 
-- **supervised-learning-pd.ipynb:** Predictive models based on PD data
+- **supervised-learning-pd.ipynb:** Supervised learning models based on PD measurements
 
-- **semi-supervised-learning-pd.ipynb:** Enhancing performance with limited labeled data
+- **semi-supervised-learning-pd.ipynb:** Enhancing model performance with limited labeled PD data
 
 ## How to Run
 Clone the repository:
