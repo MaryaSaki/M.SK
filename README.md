@@ -17,14 +17,13 @@ My role focused on applying machine learning techniques to analyze these dataset
 - **Generating synthetic data to simulate future health trajectories**
 
 ## Machine Learning Applications
-| Technique                 | Purpose                                                                                 |
-|--------------------------|-----------------------------------------------------------------------------------------|
-| Clustering (Unsupervised Learning) | Discovering natural groupings, patterns, and correlations in unlabeled data                          |
-| Outlier Detection         | Identifying erroneous or abnormal measurements                                          |
-| Missing Value Imputation  | Handling incomplete diagnostic records                                                  |
-| Supervised Learning       | Predicting equipment condition using labeled data                                       |
-| Semi-Supervised Learning  | Leveraging partially labeled datasets for improved generalization                       |
-
+| Technique                       | Purpose                                                                                         |
+|--------------------------------|-------------------------------------------------------------------------------------------------|
+| Clustering (Unsupervised Learning) | Discovering natural groupings, patterns, and correlations in unlabeled data                    |
+| Outlier Detection               | Identifying erroneous or abnormal measurements                                                  |
+| Missing Value Imputation        | Exploring impact of missing values by simulating data loss on key numeric/correlated features   |
+| Supervised Learning             | Predicting equipment condition using labeled data                                               |
+| Semi-Supervised Learning        | Leveraging partially labeled datasets for improved generalization                               |
 
 
 ## Project Structure
